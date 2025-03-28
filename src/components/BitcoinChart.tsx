@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Area, AreaChart } from 'recharts';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ButtonGroup, Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/button';
 
 type PriceHistoryItem = {
   timestamp: number;
